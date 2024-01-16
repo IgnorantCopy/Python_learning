@@ -1,5 +1,8 @@
+import math
+import random
+import sys
+import time
 import pygame as p
-import random, sys, math, time
 
 WIDTH, HEIGHT = 600, 800
 p.init()
@@ -92,7 +95,7 @@ def choice():
 
 
 while 1:
-    if is_move == True:
+    if is_move:
         if hit == 0:
             y_speed = -0.3
             p.draw.rect(window, (255, 255, 255), (x_ball, y_ball, 10, 10), 0)
@@ -169,14 +172,14 @@ while 1:
             x_platform = x - 25
             p.draw.rect(window, (0, 0, 0), (x_platform, y_platform, 50, 5), 0)
             p.display.update()
-            if is_move == False:
+            if not is_move:
                 y_ball = 690
                 p.draw.rect(window, (255, 255, 255), (x_ball, y_ball, 10, 10), 0)
                 x_ball = x - 5
                 window.blit(image2, (x_ball, y_ball))
                 p.display.update()
         elif event.type == p.MOUSEBUTTONUP:
-            if is_stop == True:
+            if is_stop:
                 x_m, y_m = event.pos
                 if x_r1 <= x_m <= x_r1 + w_r and y_r1 <= y_m <= y_r1 + h_r:
                     p.draw.rect(window, (255, 0, 0), (x_r1, y_r1, w_r, h_r))
@@ -209,7 +212,7 @@ while 1:
                     sys.exit()
         elif event.type == p.MOUSEBUTTONDOWN:
             is_move = True
-            if is_stop == True:
+            if is_stop:
                 x_m, y_m = event.pos
                 if x_r1 <= x_m <= x_r1 + w_r and y_r1 <= y_m <= y_r1 + h_r:
                     p.draw.rect(window, (200, 200, 200), (x_r1, y_r1, w_r, h_r))
@@ -219,18 +222,17 @@ while 1:
                     p.draw.rect(window, (200, 200, 200), (x_r2, y_r2, w_r, h_r))
                     window.blit(text4, (x_t2, y_t2))
                     p.display.update()
-        elif event.type == p.KEYUP:
-            if chr(event.key) == 'm':
-                for i in list_brick:
-                    i[0] = 0
-                    p.draw.rect(window, (255, 255, 255), (i[1], i[2], 20, 10), 0)
-                    p.display.update()
-                x_speed, y_speed = 0, 0
-                text1 = font1.render('游戏结束！', True, (0, 0, 0), (255, 255, 255))
-                text2 = font1.render('用了{}个球'.format(waste_ball), True, (0, 0, 0), (255, 255, 255))
-                window.blit(text1, (200, 300))
-                window.blit(text2, (200, 360))
-                hit = -1
-                is_stop = True
-                choice()
+        elif event.type == p.KEYUP and chr(event.key) == 'm':
+            for i in list_brick:
+                i[0] = 0
+                p.draw.rect(window, (255, 255, 255), (i[1], i[2], 20, 10), 0)
                 p.display.update()
+            x_speed, y_speed = 0, 0
+            text1 = font1.render('游戏结束！', True, (0, 0, 0), (255, 255, 255))
+            text2 = font1.render('用了{}个球'.format(waste_ball), True, (0, 0, 0), (255, 255, 255))
+            window.blit(text1, (200, 300))
+            window.blit(text2, (200, 360))
+            hit = -1
+            is_stop = True
+            choice()
+            p.display.update()
