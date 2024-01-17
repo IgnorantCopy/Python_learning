@@ -17,6 +17,7 @@ print(int(num))
 flag = True
 print(int(flag))
 print(str(flag))
+# in Python, only 0 "" '' None () {} [] will be transferred to False
 print(bool(5))
 print(bool(0))
 print(bool(''))
