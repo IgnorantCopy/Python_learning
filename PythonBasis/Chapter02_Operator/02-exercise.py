@@ -10,4 +10,3 @@ shi = x // 10 % 10
 bai = x // 100 % 10
 # printf
 print("个位:%d, 十位:%d, 百位:%d" % (ge, shi, bai))
-print("个位:{}, 十位:{}, 百位:{}".format(ge, shi, bai))
