@@ -11,10 +11,19 @@ format:
     range(stop) / range(start, stop) / range(start, stop, step)
         Return an object that produces a sequence of integers from start (inclusive) (0 if default)
         to stop (exclusive) by step (1 if default)
+    
+    for i in String:
+        ...
+    i: the character in String
 '''
 
 for i in range(1, 11, 2):
     print(i)
+
+for i in "3jh4bl3b54":
+    if i.isdigit():
+        print(i, end = ' ')
+print()
 
 # rewrite the first code in 02-while.py
 '''
