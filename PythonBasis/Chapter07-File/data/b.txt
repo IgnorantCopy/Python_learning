@@ -1,0 +1,7 @@
+
+Dear Admin:
+    Hello! Welcome to Python Basis!
+                                    Yours, Carl
+Hi!
+Glad to see you!
+                Yours, Admin

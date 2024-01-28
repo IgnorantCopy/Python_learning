@@ -61,3 +61,11 @@ Y
 .PythonBasis/Chapter06_Function/08-recursive.py,a\9\a9b2a0ae885edc6055f544551790ece14514caac
 ^
 .PythonBasis/Chapter06_Function/09-anonymity.py,6\8\68b49d02cb14d5a534762c16d03644001043c84b
+V
+&PythonBasis/Chapter07-File/01-basis.py,e\e\eeca2c19954f6aacc4b03d54cffc4a4a9f14aabb
+U
+%PythonBasis/Chapter07-File/data/a.txt,8\e\8e546dac867519c9074c115c58ced485f70f5b61
+U
+%PythonBasis/Chapter07-File/data/b.txt,6\5\652aa8127991037b1e7ba850616ee4d5751e8362
+Z
+*PythonBasis/Chapter07-File/02-operation.py,2\d\2db245eb9d6b39700368cb2f9b3f72633e4242f0
