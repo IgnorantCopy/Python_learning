@@ -69,3 +69,7 @@ U
 %PythonBasis/Chapter07-File/data/b.txt,6\5\652aa8127991037b1e7ba850616ee4d5751e8362
 Z
 *PythonBasis/Chapter07-File/02-operation.py,2\d\2db245eb9d6b39700368cb2f9b3f72633e4242f0
+Y
+)PythonBasis/Chapter08-Exception/01-try.py,2\8\28590a36651e82f7bf00c59d448e6e696529e786
+[
++PythonBasis/Chapter08-Exception/02-raise.py,3\3\33246d28db456728f49b523b521ce126a9307a8c
