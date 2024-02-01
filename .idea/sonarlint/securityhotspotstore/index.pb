@@ -73,3 +73,11 @@ Y
 )PythonBasis/Chapter08-Exception/01-try.py,2\8\28590a36651e82f7bf00c59d448e6e696529e786
 [
 +PythonBasis/Chapter08-Exception/02-raise.py,3\3\33246d28db456728f49b523b521ce126a9307a8c
+c
+3PythonBasis/Chapter05_Struct/04-Set/03-inference.py,5\8\584bbeff9fcd5a174bcfc463d3f78453d36e5b1b
+j
+:PythonBasis/Chapter05_Struct/03-Dictionary/03-inference.py,e\4\e49a68a65adf14da143dbd5f2649b6d2e586fd61
+\
+,PythonBasis/Chapter05_Struct/06-generator.py,2\f\2fa35510ca02624f5b9c1e42b35c0ebc48aae084
+[
++PythonBasis/Chapter05_Struct/07-iterator.py,7\c\7c22b68fe1a2515b36751d307074c8b784ca530d
