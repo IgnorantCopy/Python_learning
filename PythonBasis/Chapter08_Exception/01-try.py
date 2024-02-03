@@ -33,7 +33,7 @@ print()
 def func():
     fis = None
     try:
-        fis = open("../Chapter07-File/data/a.txt", 'r')
+        fis = open("../Chapter07_File/data/a.txt", 'r')
         print(fis.read())
         return 1
     except FileNotFoundError as e:

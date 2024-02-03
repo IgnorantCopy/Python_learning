@@ -81,3 +81,11 @@ j
 ,PythonBasis/Chapter05_Struct/06-generator.py,2\f\2fa35510ca02624f5b9c1e42b35c0ebc48aae084
 [
 +PythonBasis/Chapter05_Struct/07-iterator.py,7\c\7c22b68fe1a2515b36751d307074c8b784ca530d
+U
+%PythonBasis/Chapter09-OOP/01-intro.py,e\e\eea44afa05b8afd7dac694cf33661f7675838c61
+[
++PythonBasis/Chapter09-OOP/02-constructor.py,5\e\5e2a4997c2a52e2c8477d44e330ccbe8dab37fff
+V
+&PythonBasis/Chapter09-OOP/03-method.py,1\8\184f2473451e118d12a4026be210584f05e54657
+V
+&PythonBasis/Chapter09_OOP/03-method.py,e\6\e6938702362fe5f7c4abe8ddcb481fd38a5f9614
