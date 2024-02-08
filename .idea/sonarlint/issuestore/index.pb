@@ -99,3 +99,13 @@ Z
 *PythonBasis/Chapter10_Module/07-hashlib.py,5\a\5a35c75bb8d47de5c4f10eda9e01a13a824e21a3
 Q
 !Game/HappyNewYear/HappyNewYear.py,1\4\14f240d7adc4de8f7c79fa36119ac4b491a67228
+g
+7PythonBasis/Chapter11_RegularExpression/01-operation.py,5\e\5ed4e1ede60c8092c4edea8ad7454fa01a1bc12d
+h
+8PythonBasis/Chapter11_RegularExpression/02-otherIntro.py,6\2\62da21e01db24f743954511457da6f5824685dab
+b
+2PythonBasis/Chapter11_RegularExpression/03-rule.py,2\e\2e179a28d10b4b1a9b761c8ec2f20d4bbece2e52
+f
+6PythonBasis/Chapter11_RegularExpression/04-exercise.py,8\1\818b73bb8c42ad60f813508b91142c3ccac817a7
+i
+9PythonBasis/Chapter11_RegularExpression/04-exercise.ipynb,3\4\34b631b5ffd66530dc90bc76ff0c92b8b18ce32b

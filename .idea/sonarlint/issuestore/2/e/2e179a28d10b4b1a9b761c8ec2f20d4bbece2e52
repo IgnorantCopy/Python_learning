@@ -1,0 +1,5 @@
+
+Wpython:S5857`"8Replace this use of a reluctant quantifier with "[^a]*".(¶ÈØÚ8ŠÆ˜Ø1
+ipython:S6019f"EFix this reluctant quantifier that will only ever match 1 repetition.(Ü­Şüÿÿÿÿ8—ëÌ˜Ø1
+ipython:S6019s"EFix this reluctant quantifier that will only ever match 1 repetition.(²áÅùÿÿÿÿ8—ëÌ˜Ø1
+jpython:S6019v"FFix this reluctant quantifier that will only ever match 0 repetitions.(©Äƒ‚ÿÿÿÿÿ8—ëÌ˜Ø1
