@@ -105,7 +105,5 @@ h
 8PythonBasis/Chapter11_RegularExpression/02-otherIntro.py,6\2\62da21e01db24f743954511457da6f5824685dab
 b
 2PythonBasis/Chapter11_RegularExpression/03-rule.py,2\e\2e179a28d10b4b1a9b761c8ec2f20d4bbece2e52
-f
-6PythonBasis/Chapter11_RegularExpression/04-exercise.py,8\1\818b73bb8c42ad60f813508b91142c3ccac817a7
 i
 9PythonBasis/Chapter11_RegularExpression/04-exercise.ipynb,3\4\34b631b5ffd66530dc90bc76ff0c92b8b18ce32b
