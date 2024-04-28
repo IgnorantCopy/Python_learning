@@ -1,0 +1,3 @@
+-F == --onefile
+-D == --onedir
+format: pyinstaller [options] <name>.py
