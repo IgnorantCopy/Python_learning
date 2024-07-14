@@ -63,5 +63,5 @@ def bessel(*coordinate, precision=10):
 
 t.setup(800, 600)
 t.speed(0)
-bessel(-300, -50, -200, 200, 100, 50, 150, -200, 300, 100, precision=1000)
+bessel(-300, -50, -200, 200, 100, 50, precision=600)
 t.done()
